@@ -17,7 +17,6 @@ class ProfileActivity : AppCompatActivity() {
     private lateinit var editTextCorreo: EditText
     private lateinit var editTextTelefono: EditText
     private lateinit var buttonEditProfile: Button
-    private lateinit var buttonCalculadora: TextView
 
     private lateinit var sharedPreferences: SharedPreferences
 
