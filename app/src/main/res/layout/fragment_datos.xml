@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/mis_datos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="130sp"/>
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nombre"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Edad"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Correo_Institucional"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPrograma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/programa"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSemestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/semestre"
+        android:inputType="number"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/guardarDatosButton"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rosado"
+        android:text="@string/guardar"
+        android:layout_marginStart="90sp"
+        android:padding="12dp"
+
+        />
+
+</LinearLayout>
